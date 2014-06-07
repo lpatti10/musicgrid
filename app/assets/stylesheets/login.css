@@ -179,9 +179,35 @@ footer {
 	height: 250px;
 	background-color: black;
 	font-family: 'Montserrat', sans-serif;
-	color: gray;
+	color: #999999;
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 120px;
+}
+
+img.icon {
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 60px;
+	height: auto;
+	border-radius:100px;
+	margin-bottom: 20px;
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+}
+
+img.icon:hover {
+	-webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
 }
 
