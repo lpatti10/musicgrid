@@ -1,0 +1,177 @@
+*	{
+	border: 1px solid rgba(255, 0, 0, 0.0);
+}
+
+header {
+	margin: 0 auto;
+}
+
+.topfix	{
+	position:fixed;  
+  top: 0; 
+  left: 0; 
+  z-index: 1;  
+	width: 100%;
+	background-color: #47474C;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 40px;
+
+}
+
+#logo {
+	position:absolute;
+	top: 10px;
+	left: 20px;
+}
+
+p.logotype1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #EEEDEC;
+	float: left;
+	font-size: 24px;
+	margin-left: 80px;
+	margin-top: 5px;
+}
+
+p.logotype2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 14px;
+}
+
+h2 {
+	margin-top: 80px;
+	font-family: 'Pacifico', cursive;
+	color: #ffffff;
+	text-align: center;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.container_top {
+	margin: 0 auto;
+	width: 1300px;
+	height: 500px;
+	position: relative;
+	background-color: rgba(168, 38, 42, 0.7);
+}
+
+.center_top {
+
+}
+
+form {
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 70px;
+	background-color: #ffffff;
+	color: #EEEDEC;
+	padding-left: 8px;
+	vertical-align: middle;
+
+}
+
+form.email {
+	margin-top: 25px;
+}
+
+form.password {
+	margin-top: 25px;
+}
+
+p.signin {
+
+	width: 300px;
+	color: #EEEDEC;
+	padding-left: 8px;
+	vertical-align: middle;
+	text-align: right;
+}
+input {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.button {
+	text-align: center;
+}
+
+
+.container_middle {
+	margin: 0 auto;
+	width: 1300px;
+	height: 500px;
+	background-image: url(../../assets/images/bkgrd_repeat_32px.png);
+}
+
+
+.wrapper {
+  
+  top: 1000px; 
+  left: 0; 
+  z-index: 0;  
+	width: 100%;
+	background-image: url(../../assets/images/community2.jpg);
+
+}
+
+.gallery {
+	width: 960px;
+		margin: 0 auto;
+		border: none;
+}
+
+.album1 {
+	margin: 0 auto;
+	background-image: url(../../assets/images/artwk1.jpg);
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 225px;
+	border: none;
+	float: left;
+
+}
+
+.album2 {
+	margin: 0 auto;
+	background-image: url(../../assets/images/artwk2.jpg);
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 225px;
+	border: none;
+	float: left;
+}
+.album3 {
+	margin: 0 auto;
+	background-image: url(../../assets/images/artwk3.jpg);
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 225px;
+	border: none;
+	float: left;
+}
+
+.album4 {
+	margin: 0 auto;
+	background-image: url(../../assets/images/artwk4.jpg);
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 225px;
+	border: none;
+	float: left;
+}
+
+
+
